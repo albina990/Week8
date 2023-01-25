@@ -1,0 +1,169 @@
+/*header*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4vh;
+}
+.logo {
+    max-width: 100%;
+}
+.button {
+    background: #5222d0;
+    border-radius: 100px;
+    font-family: "Unbounded";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9em;
+    color: #ffffff;
+    padding: 1vh 1vw 1vh 1vw;
+    border: none;
+}
+
+/*main*/
+.banner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-height: 100%;
+}
+.banner__item:first-child {
+    max-width: 40%;
+    margin-right: 10%;
+}
+.banner__item img {
+    max-width: 100%;
+}
+.banner__text {
+    padding-bottom: 5%;
+    padding-left: 1vw;
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.1em;
+    line-height: 160%;
+    color: #000000;
+}
+h1,
+h2 {
+    padding-left: 1vw;
+    padding-top: 5vh;
+    font-family: "Unbounded";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.2em;
+    line-height: 120%;
+    color: #000000;
+    margin: 0;
+}
+h2 {
+    padding-bottom: 4vh;
+    padding-top: 3vh;
+}
+.button_banner {
+    font-size: 1.7em;
+    margin-left: 1vw;
+}
+.button_banner img {
+    max-width: 100%;
+}
+/*section*/
+.features {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.features__item {
+    margin-left: 1%;
+    max-width: 365px;
+    background: url("../assets/image/background.jpg") no-repeat;
+}
+.features__title {
+    padding: 2% 0 3% 0;
+    font-family: "Unbounded";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #000000;
+}
+.features__item:first-child > .features_title {
+    padding: 8% 0 3% 0;
+}
+.features__item:nth-child(3) > .features_title {
+    padding: 5% 0 3% 0;
+}
+.features__item:nth-child(4),
+.features__item:nth-child(5) {
+    background: #ffffff;
+}
+.features__item:nth-child(4) > .features_title {
+    padding: 6% 0 3% 0;
+}
+.features__item:nth-child(5) > .features_title {
+    padding: 6% 0 3% 0;
+}
+.features__text {
+    padding-bottom: 5%;
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.2em;
+    line-height: 160%;
+    color: #000000;
+}
+.features__item_news {
+    background: #ec615b;
+    padding-left: 2%;
+    padding-bottom: 10%;
+}
+.features__item_news_title {
+    padding: 6% 0 3% 0;
+    font-family: "Unbounded";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #ffffff;
+}
+.input {
+    width: 90%;
+    height: 21%;
+    margin-bottom: 6%;
+    border: none;
+    background: #ffffff;
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color: #000000;
+}
+.footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 1%;
+}
+.footer__item {
+    padding: 5% 3% 5% 0;
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.2em;
+    color: #000000;
+}
+.footer__item a {
+    text-decoration: none;
+}
+@media screen and (max-width: 618px) {
+    .banner {
+        align-items: flex-end;
+    }
+}
