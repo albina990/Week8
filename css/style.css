@@ -95,20 +95,20 @@ h2 {
     font-size: 1.3em;
     color: #000000;
 }
-.features__item:first-child > .features_title {
+.features__item:first-child > .features__title {
     padding: 8% 0 3% 0;
 }
-.features__item:nth-child(3) > .features_title {
+.features__item:nth-child(3) > .features__title {
     padding: 5% 0 3% 0;
 }
 .features__item:nth-child(4),
 .features__item:nth-child(5) {
     background: #ffffff;
 }
-.features__item:nth-child(4) > .features_title {
+.features__item:nth-child(4) > .features__title {
     padding: 6% 0 3% 0;
 }
-.features__item:nth-child(5) > .features_title {
+.features__item:nth-child(5) > .features__title {
     padding: 6% 0 3% 0;
 }
 .features__text {
